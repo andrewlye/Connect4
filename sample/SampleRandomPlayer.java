@@ -2,7 +2,7 @@
  * Shows how to put a type into a package, implement the Player interface, and use the Grid interface
  */
 package sample;       // put your own java files into a package/folder with your lower-case name
-import connectFour.*; // this imports the connectFour types (Grid and Player)
+import c4interface.*; // this imports the connectFour types (Grid and Player)
 import java.util.*;   // this imports the java.util types
 
 public class SampleRandomPlayer implements Player {

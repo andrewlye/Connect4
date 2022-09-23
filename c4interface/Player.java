@@ -1,4 +1,4 @@
-package connectFour;
+package c4interface;
 
 public interface Player {
 	/**
@@ -19,7 +19,6 @@ public interface Player {
 	
 	/**
 	 * Returns the name of the player.
-	 * The player name should include your own name, like "Arthur's Confused Connector"
 	 * 
 	 * @return  player's name
 	 */

@@ -1,6 +1,7 @@
 package andrew;
 import java.util.Scanner;
-import connectFour.*;
+
+import c4interface.*;
 import sample.SampleRandomPlayer;
 
 public class Game {
@@ -41,21 +42,16 @@ public class Game {
 
         while(true)
         {
-            System.out.print("Please choose player 2 type (random, human, computer1, computer2): ");
+            System.out.print("Please choose player 2 type (random, human, computer): ");
             String p2type = scanner.nextLine();
             if (p2type.equals("human"))
             {
                 player2 = new HumanPlayer(scanner);
                 break;
             }
-            else if (p2type.equals("computer1"))
+            else if (p2type.equals("computer"))
             {
                 player2 = new AutomatedPlayer();
-                break;
-            }
-            else if (p2type.equals("computer2"))
-            {
-                player2 = new AutomatedPlayerVerTwo();
                 break;
             }
             else if (p2type.equals("random"))

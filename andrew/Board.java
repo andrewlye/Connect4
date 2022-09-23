@@ -1,5 +1,5 @@
 package andrew;
-import connectFour.*;
+import c4interface.*;
 
 public class Board implements Grid {
 

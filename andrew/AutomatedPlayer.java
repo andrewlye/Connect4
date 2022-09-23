@@ -1,8 +1,9 @@
 package andrew;
-import connectFour.*;
 import java.util.*;
 
 import javax.lang.model.util.ElementScanner14;
+
+import c4interface.*;
 
 public class AutomatedPlayer implements Player{
 

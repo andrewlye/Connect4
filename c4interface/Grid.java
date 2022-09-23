@@ -1,4 +1,4 @@
-package connectFour;
+package c4interface;
 
 /**
  * Represents the grid of a Connect Four game.

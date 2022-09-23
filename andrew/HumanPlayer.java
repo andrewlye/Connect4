@@ -1,6 +1,7 @@
 package andrew;
-import connectFour.*;
 import java.util.*;
+
+import c4interface.*;
 
 public class HumanPlayer implements Player{
 
